@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>- 电影鉴赏网站</title>
+    <style>
+        body {
+        font-family: 'Microsoft YaHei', sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f0f0f0;
+        color: #333;
+    }
+a{
+text-decoration: none;
+color: #333;
+}
+    header {
+        background: linear-gradient(135deg, #032b81, #4fa4dc);
+        color: white;
+        text-align: center;
+        padding: 3em 0;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    h1 {
+        margin: 0;
+        font-size: 3.5em;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    }
+
+    nav {
+        background-color: #689ad2;
+        color: white;
+    }
+
+    nav ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    nav ul li {
+        padding: 1.2em;
+    }
+
+    nav ul li a {
+        color: white;
+        text-decoration: none;
+        transition: all 0.3s ease;
+        font-weight: 500;
+    }
+
+    nav ul li a:hover {
+        color: #FFEB3B;
+        transform: translateY(-2px);
+        display: inline-block;
+    }
+
+    main {
+        padding: 3em;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 2em;
+    }
+
+    .movie-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        gap: 2em;
+        width: 100%;
+    }
+
+    .movie-item {
+        background-color: white;
+        border-radius: 12px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        overflow: hidden;
+        transition: transform 0.3s ease;
+    }
+
+    .movie-item img {
+     
+        width: 100%;
+        height: 500px;
+        object-fit: cover;
+    }
+
+    .movie-item:hover {
+        transform: translateY(-5px);
+    }
+
+    .movie-item h3 {
+        margin: 1em;
+        text-align: center;
+    }
+
+    footer {
+        background: linear-gradient(135deg, #032b81, #4fa4dc);
+        color: rgb(250, 247, 247);
+        text-align: center;
+        padding: 1.5em 0;
+        box-shadow: 0 -4px 8px rgba(8, 8, 8, 0.1);
+    
+     }
+     hr {
+height: 5px;
+border: none;
+background-color: rgb(255, 255, 255);
+}
+img {
+    height:400px;
+    width:400px;
+    object-fit: cover;
+}
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>星际穿越</h1>
+    </header>
+    <nav>
+            <ul>
+                <li><a href="../index.html">首页</a></li>
+                <li><a href="../动画.html">动画</a></li>
+                <li><a href="../科幻.html">科幻</a></li>
+                <li><a href="../悬疑.html">悬疑</a></li>
+            </ul>
+        </nav>
+        <hr>
+        <nav>
+            <ul>
+                <li><a href="../登录页面.html">登陆页面</a></li>
+                <li><a href="../排行榜.html">电影排行榜</a></li>
+                <li><a href="../赵含旭/赵含旭个人简历.html">作者简介</a></li>
+                <li><a href=""></a></li>
+            </ul>
+    </nav> 
+    <main>
+        <img src="../img/星剧.jpg" alt="海报">
+        <p>《星际穿越》是由华纳兄弟影片公司出品 [55]，乔纳森·诺兰、克里斯托弗·诺兰编剧，克里斯托弗·诺兰执导，马修·麦康纳、安妮·海瑟薇、杰西卡·查斯坦等主演的科幻片 [51]。2014年11月7日在美国上映 [51]，2014年11月12日在中国大陆上映，2020年8月2日在中国大陆重映。
+            该片在物理学家基普·索恩的黑洞理论之上进行改编 [15]，主要讲述了一组宇航员通过穿越虫洞来为人类寻找新家园的冒险故事。 [1]
+            截止到2024年5月23日累计全球票房约6.81亿美元 [2]。2015年，该片获得了第87届奥斯卡金像奖的五项提名，并获得最佳视觉效果奖 [39]。../</p>
+       
+    </main>
+    <footer>
+        <p>&copy; 2025 电影鉴赏网站</p>
+    </footer>
+</body>
+
+</html>
